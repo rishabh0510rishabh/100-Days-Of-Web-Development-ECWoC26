@@ -50,6 +50,7 @@
 
   <!-- Fire Cursor - Commented out as file is missing -->
   <!-- <link rel="stylesheet" href="firecursor.css"> -->
+  <link rel="stylesheet" href="website/styles/tracker.css" />
 
   <style>
     /* Enhanced Modern UI Styles */
@@ -1643,6 +1644,14 @@
           <div class="search-wrapper" style="max-width: 600px; margin: 0 auto;">
             <input type="text" id="projectSearch" placeholder="Search mission name, tech, or difficulty..."
               class="search-input" />
+          </div>
+        </div>
+
+        <!-- Tracker Progress Summary -->
+        <div id="progress-summary">
+          <div class="progress-text">Progress: <span id="progress-count" class="progress-count">0/100</span></div>
+          <div class="progress-bar-container">
+            <div id="progress-bar-fill" class="progress-bar-fill" style="width: 0%"></div>
           </div>
         </div>
 
